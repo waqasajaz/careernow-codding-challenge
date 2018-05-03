@@ -1,0 +1,17 @@
+{
+  "name": "careernow-coding-challenge",
+  "version": "1.0.0",
+  "main": "game.js",
+  "scripts": {
+    "start": "nodemon src/game.js",
+    "test": "mocha --watch"
+  },
+  "devDependencies": {
+    "chai": "4.0.2",
+    "mocha": "3.4.2"
+  },
+  "dependencies": {
+    "log-update": "2.1.0",
+    "nodemon": "1.11.0"
+  }
+}
